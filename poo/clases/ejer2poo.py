@@ -1,9 +1,15 @@
 import math
 class Ejercicio2():
     def __init__(self):
+        self.password = 0
+        self.intentos = 0
+        self.palabra = 0
+    
+    def asignaDatos(self):
         self.password = "lunes"
         self.intentos = 0
         self.palabra = ""
+
        
 
     def mostrarMensaje(self):
